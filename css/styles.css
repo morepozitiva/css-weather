@@ -1,0 +1,126 @@
+ *{
+     transition: all .5s linear;
+     box-sizing: border-box;
+}
+body{
+	background-color: #3399cc;
+	border: 20px solid #2b81ac;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	color: #ffffff;
+	margin: 0;
+	padding: 0;
+}
+.container{
+	max-width: 700px;
+	margin: 0 auto;
+}
+header{
+	padding: 30px 0 20px;
+}
+header h1{
+	font-weight: 500;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.list-city {
+    list-style-type: none;
+    font-size: 0;
+    padding: 0;
+    margin: 0;
+    border: 2px solid #FFF;
+    background-color: #FFF;
+}
+
+.list-city:hover > li {
+    opacity: .6;
+}
+
+.list-city li {
+    display: inline-block;
+    font-size: 20px;
+    border: 2px solid #FFF;
+    text-align: center;
+    padding: 20px 0;
+    transition: all .5 ease-in;
+    
+}
+
+.list-city > li:hover {
+    opacity: 1;
+}
+
+.list-city li:nth-child(11n+1) {
+    background-color: #3399cc;
+}
+
+.list-city li:nth-child(11n+2) {
+    background-color: #33CCCC;
+}
+
+.list-city li:nth-child(11n+3) {
+    background-color: #996699;
+}
+
+.list-city li:nth-child(11n+4) {
+    background-color: #C24747;
+}
+
+.list-city li:nth-child(11n+5) {
+    background-color: #E2674A;
+}
+
+.list-city li:nth-child(11n+6) {
+    background-color: #FFCC66;
+}
+
+.list-city li:nth-child(11n+7) {
+    background-color: #99CC99;
+}
+
+.list-city li:nth-child(11n+8) {
+    background-color: #669999;
+}
+
+.list-city li:nth-child(11n+9) {
+    background-color: #CC6699;
+}
+
+.list-city li:nth-child(11n+10) {
+    background-color: #339966;
+}
+
+.list-city li:nth-child(11n) {
+    background-color: #666699;
+}
+
+.list-city li.single {
+    width: 25%;
+}
+
+.list-city li.double {
+    width: 50%;
+}
+
+.list-city li.triple {
+    width: 75%;
+}
+
+.list-city li.quadruple {
+    width: 100%;
+}
+
+.city-weather {
+    color: rgba(255,255,255,.7);
+    font-size: 18px;
+    margin: 10px 0 0;
+}
+
+.city-weather i {
+    font-size: 30px;
+    vertical-align: bottom;
+}
+
+footer{
+	margin: 20px 0;
+	font-size: 17px;
+}
